@@ -30,7 +30,7 @@ dependencies {
     // Core dependencies
     implementation("org.springframework:spring-web")
     implementation("com.google.guava:guava:33.4.8-jre")
-    implementation("com.fasterxml.jackson.core:jackson-databind")
+    implementation("tools.jackson.core:jackson-databind")
     implementation("org.apache.httpcomponents.client5:httpclient5")
 
     // Lombok (optional + annotation processor)
