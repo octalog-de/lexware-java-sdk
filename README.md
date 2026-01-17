@@ -9,6 +9,7 @@ Use 3.x to access the api via https://api.lexware.io (formerly https://api.lexof
 
 | lexware-java-sdk | Java | Spring Boot |
 |--------------------|------|-------------|
+| 3.5                | 21   | 4.0.x       |
 | 3.2                | 21   | 3.5.x       |
 | 3.0                | 21   | 3.4.x       |
 | 2.1                | 21   | 3.4.x       |
