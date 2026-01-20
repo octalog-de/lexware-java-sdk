@@ -75,7 +75,7 @@ The following Endpoints are implemented based on Lexware developer documentation
 * [ ] Posting Categories Endpoint
 * [ ] Profile Endpoint
 * [x] Quotations
-* [ ] Recurring Templates Endpoint
+* [x] Recurring Templates Endpoint
 * [x] Voucherlist Endpoint
 * [ ] Vouchers Endpoint
 

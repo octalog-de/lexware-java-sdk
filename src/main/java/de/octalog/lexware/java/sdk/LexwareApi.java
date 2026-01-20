@@ -4,6 +4,7 @@ import de.octalog.lexware.java.sdk.chain.ContactChain;
 import de.octalog.lexware.java.sdk.chain.EventSubscriptionChain;
 import de.octalog.lexware.java.sdk.chain.InvoiceChain;
 import de.octalog.lexware.java.sdk.chain.QuotationChain;
+import de.octalog.lexware.java.sdk.chain.RecurringTemplateChain;
 import de.octalog.lexware.java.sdk.chain.VoucherListChain;
 
 import java.text.DateFormat;
@@ -38,6 +39,10 @@ public class LexwareApi {
 
     public EventSubscriptionChain eventSubscriptions() {
         return new EventSubscriptionChain(context);
+    }
+
+    public RecurringTemplateChain recurringTemplates() {
+        return new RecurringTemplateChain(context);
     }
 
 }
